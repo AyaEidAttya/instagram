@@ -10,6 +10,10 @@ class mobilescreen extends StatefulWidget {
 class _mobilescreenState extends State<mobilescreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        title:Text("mobile screen"),
+      ),
+    );
   }
 }
