@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_application_3/responsive/mobile.dart';
+import 'package:instagram_application_3/responsive/responsive.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-   home: mobilescreen(),
+   home:responsivee(),
 
 
     );
